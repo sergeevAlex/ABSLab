@@ -26,6 +26,8 @@ public class Mass {
 //                   mt.setElem(i, j, value);
 //            }
 //        }
+
+        
         printMatrix(mt);
         long start = System.nanoTime();
         double gauss = gauss(mt, n);
